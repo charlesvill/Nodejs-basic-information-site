@@ -8,13 +8,13 @@ http.createServer(function(req, res) {
   let filename;
 
   switch (input) {
-    case "about":
+    case "/about":
       filename = "about";
       break;
-    case "contact-me": 
+    case "/contact-me": 
       filename = "contact-me";
       break;
-    case "":
+    case "/":
       filename = "index";
       break;
     default: 
